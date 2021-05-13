@@ -1,46 +1,38 @@
-/* This formats Header 1, e.g., the article Title */
 h1 {
   font-family: 'HP Simplified', sans-serif;
   font-size: 24pt; 
   color: #0096d6;
   font-weight: bold;
 }
-/* This formats Header 2, eg, an article Section Title,
-   eg, "Details Tab" */
+
 h2 {
   font-family: 'HP Simplified', sans-serif;
   font-size: 20pt; 
   color: RGB(89,187,228);
   font-weight: bold;
 }
-/* This formats Header 2, h2, as a "sub-Article Title," 
-   eg, when "Device Errors Details Report" is a report 
-   broken out from "Device Errors Reports" and is 
-   created as an individual report as an article of its own,
-   eg, "Device Errors Reports (h1) > "Device Errors Details Report."
-   It will have the same color as an h1 header*/
+
 .h2ArticleTitle {
   font-family: 'HP Simplified', sans-serif;
   font-size: 20pt; 
   color: #0096d6;
   font-weight: bold;
 }
-/* This formats Header 3, e.g., an article Subsection Title */
+
 h3 {
   font-family: 'HP Simplified', sans-serif;
   font-size: 16pt; 
   color: RGB(89,187,228);
   font-weight: bold;
 }
-/* This formats Header 4, e.g., an article Sub-Subsection Title */
+
 h4 {
   font-family: 'HP Simplified Light', sans-serif;
   font-size: 12pt; 
   color: RGB(89,187,228);
   font-weight: bold;
 }
-/* This formats Header 5, e.g., an italicized article Sub-Subsection Title,
-   eg, "XYZ Visualization" under "Details Tab" */
+
 h5 {
   font-family: 'HP Simplified Light', sans-serif;
   font-size: 12pt; 
@@ -48,32 +40,32 @@ h5 {
   font-weight: bold;
   font-style: italic
 }
-/* This formats most body paragraphs */
+
 p {
   font-family: 'HP Simplified Light', sans-serif;
   font-size: 11pt;
   line-height: 22px; 
 }
-/* This formats procedure lead-in paragraphs to make them bold */
+
 .ProcedLeadIn {
   font-family: 'HP Simplified Light', sans-serif;     
   font-size: 11pt;
   font-weight: bold;
 }
-/* This formats text that represents an UI element on the webpage */
+
 .UIElement {
   font-family: 'HP Simplified Light', sans-serif;     font-size: 11pt;
   font-weight: bold;
   color: black;
 }
-/* This formats a paragraph without bullets that is used to add info within an Ordered or Unordered List*/
+
 .ListNote {
   margin-top: 3px;
   margin-bottom: 3px;
   font-family: 'HP Simplified Light', sans-serif;     font-size: 11pt;
     line-height: 22px; 
 }
-/* This formats a block of Command Code that needs to be set off from other text*/
+
 .CommandCode {
   font-family: courier new;
   font-size: 12pt; 
@@ -81,36 +73,35 @@ p {
   margin-right: 5%;
   font-weight: bold;
 }
-/* This formats a table to take up 100% of the page width*/
+
 table {
   width: 100%
 }
-/* This formats tables to have solid thin borders that are collapsed and text that's HP Simplified Light*/
+
 table, th, td  {
   border: solid 1px black;
   border-collapse: collapse;
   font-family: 'HP Simplified Light', sans-serif;     font-size: 11pt;
   }
-/* This formats table rows to make the text top-aligned vertically and left-aligned horizontally*/
+
 tr {
   vertical-align: text-top;
   text-align: left;
   }
-/* This formats table header rows to make the background color HP Blue,
-the text style to be white, bold, and center-aligned vertically*/
+
 .headerrow {
   background-color: #0096d6;
   color: white;
   font-weight: bold;
   vertical-align: middle;
 }
-/* This formats table headers to be 11pt HP Simplified with padding of 5 pixels*/
+
 th {
   padding: 5px;
   font-family: 'HP Simplified', sans-serif;
   font-size: 11pt; 
   }
-/* This formats table cell contents to establish the padding around cell contents*/
+
 td {
   padding: 5px 7px 5px 7px;
 }
@@ -120,7 +111,7 @@ td {
   font-size: 9pt;
   line-height: 0.5;
     }
-/* This formats the 1st level of an Ordered, or Numbered, List*/
+
 ol {
   margin-top: 4px; 
   list-style-position: outside; 
@@ -128,7 +119,7 @@ ol {
   padding-left: 2em;
   font-family: 'HP Simplified Light', sans-serif;     font-size: 11pt;
 }
-/* This formats the 2nd level of a nested Ordered, or Numbered, Nested List to create lowercase letters*/
+
 .olListLevel2Letter {
   margin-top: 4px; 
   list-style-type: lower-alpha;
@@ -137,7 +128,7 @@ ol {
   padding-left: 1em;
   font-family: 'HP Simplified Light', sans-serif;     font-size: 11pt;
 }
-/* This formats the 3rd level of a Nested Ordered, or Numbered, List to create lowercase Roman numbers*/
+
 .olListLevel3Roman {
   margin-top: 4px; 
   list-style-type: lower-roman;
@@ -146,7 +137,7 @@ ol {
   padding-left: 1em;
   font-family: 'HP Simplified Light', sans-serif;     font-size: 11pt;
 }
-/* This creates a 1st-Level Ordered (Numbered List) under a Bullet */
+
 .ulol {
   margin-top: 4px; 
   list-style-position: outside; 
@@ -154,7 +145,7 @@ ol {
   padding-left: 1em;
   font-family: 'HP Simplified Light', sans-serif;     font-size: 11pt;
 }
-/* This formats the 1st level of an Unordered (Bulleted) List with a "•" */
+
 ul {
   margin-top: 4px; 
   list-style-position: outside; 
@@ -163,8 +154,7 @@ ul {
   font-family: 'HP Simplified Light', sans-serif;     
   font-size: 11pt;
 }
-/* This formats the 2nd level (Sub-Bullet) of a nested Unordered (Bulleted)
-   OR a bulleted note under a Level-1 step in an Ordered (Numbered) List with a "○" */
+
 .SubBullet {
   margin-top: 4px; 
   list-style-position: outside; 
@@ -174,8 +164,7 @@ ul {
   font-family: 'HP Simplified Light', sans-serif;     
   font-size: 11pt;
 }
-/* This formats the 3rd level (Sub-Sub-Bullet) of a nested Unordered (Bulleted)
-   OR a bulleted note under a Level-2 step in an Ordered (Numbered) List with a "-" */
+
 .SubSubBullet {
   margin-top: 4px; 
   list-style-position: outside; 
@@ -185,7 +174,7 @@ ul {
   font-family: 'HP Simplified Light', sans-serif;     
   font-size: 11pt;
 }
-/* This formats the 4th level (Sub-Sub-Sub-Bullet) of a nested Unordered (Bulleted) with a small square "■" */
+
  .SubSubSubBullet {
   margin-top: 4px; 
   list-style-position: outside; 
@@ -195,8 +184,7 @@ ul {
   font-family: 'HP Simplified Light', sans-serif;     
   font-size: 11pt;
 }
-/* This formats a bulleted note under a (Level-1) step in an Ordered (Numbered) List with a "○" 
-   It's the same as a SubBullet*/
+
 .StepBullet {
   margin-top: 4px; 
   list-style-position: outside; 
@@ -206,8 +194,7 @@ ul {
   font-family: 'HP Simplified Light', sans-serif;     
   font-size: 11pt;
 }
-/* This formats a dashed sub-bullet that adds a definition or additional information for clarification  
-   and is more or less interchangeable with SubSubBullet, depending on the context of the content */
+
 .DefInfoBullet {
   margin-top: 4px; 
   list-style-position: outside; 
@@ -216,7 +203,7 @@ ul {
   padding-left: 1em;
   font-family: 'HP Simplified Light', sans-serif;     font-size: 11pt;
 }
-/* This formats hyperlink text*/
+
 a {
   color: #0096d6;
   font-family: 'HP Simplified Light', sans-serif;
